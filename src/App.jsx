@@ -33,7 +33,11 @@ function App() {
       <div className="w-full">
         <button
           className="absolute top-0 right-0 m-4 bg-blue-600 text-white px-4 py-3 rounded-lg"
-          onClick={() => (window.location.href = "https://github.com/RohanDhangar/Currency-Convertor")}
+          onClick={() => 
+            window.open(
+              "https://github.com/RohanDhangar/Currency-Convertor",
+            "_blank"
+          )}
         >
           Get Code
         </button>
