@@ -31,6 +31,12 @@ function App() {
       }}
     >
       <div className="w-full">
+        <button
+          className="absolute top-0 right-0 m-4 bg-blue-600 text-white px-4 py-3 rounded-lg"
+          onClick={() => (window.location.href = "https://github.com/RohanDhangar/Currency-Convertor")}
+        >
+          Get Code
+        </button>
         <div className="w-full max-w-md mx-auto border border-gray-60 rounded-lg p-5 backdrop-blur-sm bg-white/30">
           <form
             onSubmit={(e) => {
